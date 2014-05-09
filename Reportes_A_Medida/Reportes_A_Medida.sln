@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reportes_A_Medida", "Reportes_A_Medida.csproj", "{B2625B7B-5FD3-458B-A73C-27777F33CF3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReporteExistenciaPrecio", "..\..\Existencia-precio\ReporteExistenciaPrecio\ReporteExistenciaPrecio.csproj", "{D5FD3D90-4F5F-4D81-9D75-4D32B35E6410}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2625B7B-5FD3-458B-A73C-27777F33CF3D}.Debug|x86.ActiveCfg = Debug|x86
+		{B2625B7B-5FD3-458B-A73C-27777F33CF3D}.Debug|x86.Build.0 = Debug|x86
+		{B2625B7B-5FD3-458B-A73C-27777F33CF3D}.Release|x86.ActiveCfg = Release|x86
+		{B2625B7B-5FD3-458B-A73C-27777F33CF3D}.Release|x86.Build.0 = Release|x86
+		{D5FD3D90-4F5F-4D81-9D75-4D32B35E6410}.Debug|x86.ActiveCfg = Debug|x86
+		{D5FD3D90-4F5F-4D81-9D75-4D32B35E6410}.Debug|x86.Build.0 = Debug|x86
+		{D5FD3D90-4F5F-4D81-9D75-4D32B35E6410}.Release|x86.ActiveCfg = Release|x86
+		{D5FD3D90-4F5F-4D81-9D75-4D32B35E6410}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
