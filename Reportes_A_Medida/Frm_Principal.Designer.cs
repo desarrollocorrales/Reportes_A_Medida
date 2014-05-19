@@ -29,39 +29,39 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Principal));
-            this.btnExisPrecio = new System.Windows.Forms.Button();
             this.btnVentasVendedor = new System.Windows.Forms.Button();
+            this.btnExisPrecio = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnExisPrecio
-            // 
-            this.btnExisPrecio.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnExisPrecio.Image = global::Reportes_A_Medida.Properties.Resources.report_icon;
-            this.btnExisPrecio.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnExisPrecio.Location = new System.Drawing.Point(281, 231);
-            this.btnExisPrecio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnExisPrecio.Name = "btnExisPrecio";
-            this.btnExisPrecio.Size = new System.Drawing.Size(100, 100);
-            this.btnExisPrecio.TabIndex = 0;
-            this.btnExisPrecio.Text = "Existencias y precios de artículos";
-            this.btnExisPrecio.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnExisPrecio.UseVisualStyleBackColor = true;
-            this.btnExisPrecio.Click += new System.EventHandler(this.btnExisPrecio_Click);
             // 
             // btnVentasVendedor
             // 
             this.btnVentasVendedor.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnVentasVendedor.Image = global::Reportes_A_Medida.Properties.Resources.report_icon;
+            this.btnVentasVendedor.Image = global::Reportes_A_Medida.Properties.Resources.Businessman;
             this.btnVentasVendedor.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnVentasVendedor.Location = new System.Drawing.Point(403, 231);
+            this.btnVentasVendedor.Location = new System.Drawing.Point(407, 201);
             this.btnVentasVendedor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnVentasVendedor.Name = "btnVentasVendedor";
-            this.btnVentasVendedor.Size = new System.Drawing.Size(100, 100);
+            this.btnVentasVendedor.Size = new System.Drawing.Size(180, 160);
             this.btnVentasVendedor.TabIndex = 1;
             this.btnVentasVendedor.Text = "Ventas por vendedor";
             this.btnVentasVendedor.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnVentasVendedor.UseVisualStyleBackColor = true;
             this.btnVentasVendedor.Click += new System.EventHandler(this.btnVentasVendedor_Click);
+            // 
+            // btnExisPrecio
+            // 
+            this.btnExisPrecio.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnExisPrecio.Image = global::Reportes_A_Medida.Properties.Resources.cart41;
+            this.btnExisPrecio.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnExisPrecio.Location = new System.Drawing.Point(197, 201);
+            this.btnExisPrecio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnExisPrecio.Name = "btnExisPrecio";
+            this.btnExisPrecio.Size = new System.Drawing.Size(180, 160);
+            this.btnExisPrecio.TabIndex = 0;
+            this.btnExisPrecio.Text = "Existencias y precios de artículos";
+            this.btnExisPrecio.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnExisPrecio.UseVisualStyleBackColor = true;
+            this.btnExisPrecio.Click += new System.EventHandler(this.btnExisPrecio_Click);
             // 
             // Frm_Principal
             // 

@@ -20,16 +20,20 @@ namespace Reportes_A_Medida
 
         private void btnExisPrecio_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Splash spExistencia = new Splash();
             spExistencia.ShowDialog();
             this.WindowState = FormWindowState.Maximized;
+            this.Show();
         }
 
         private void btnVentasVendedor_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Splash_VentasVendedores splashVendedores = new Splash_VentasVendedores();
             splashVendedores.ShowDialog();
             this.WindowState = FormWindowState.Maximized;
+            this.Show();
         }
     }
 }

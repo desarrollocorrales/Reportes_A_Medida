@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reportes_A_Medida", "Report
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReporteExistenciaPrecio", "..\..\Existencia-precio\ReporteExistenciaPrecio\ReporteExistenciaPrecio.csproj", "{D5FD3D90-4F5F-4D81-9D75-4D32B35E6410}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Reportes A Medida Installer", "..\Reportes A Medida installer\Reportes A Medida installer.vdproj", "{4ECDBDFF-5F53-42D6-BD56-B0E57B854293}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,8 @@ Global
 		{D5FD3D90-4F5F-4D81-9D75-4D32B35E6410}.Debug|x86.Build.0 = Debug|x86
 		{D5FD3D90-4F5F-4D81-9D75-4D32B35E6410}.Release|x86.ActiveCfg = Release|x86
 		{D5FD3D90-4F5F-4D81-9D75-4D32B35E6410}.Release|x86.Build.0 = Release|x86
+		{4ECDBDFF-5F53-42D6-BD56-B0E57B854293}.Debug|x86.ActiveCfg = Debug
+		{4ECDBDFF-5F53-42D6-BD56-B0E57B854293}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
